@@ -103,53 +103,47 @@ def main():
     chaBonus = math.floor((chaScore - 10) / 2)
 
     # Print results with varying punctuation
-    print("\nYour Strength bonus is", end = " ")
     if strBonus >= 2:
-        print("+", str(strBonus), "!", sep="")
+        print("\nYour Strength bonus is +", str(strBonus), "!", sep="")
     elif strBonus < 0:
-        print(str(strBonus), "...", sep="")
+        print("\nYour Strength penalty is ", str(strBonus), "...", sep="")
     else:
-        print("+", str(strBonus), ".", sep="")
+        print("\nYour Strength bonus is +", str(strBonus), ".", sep="")
     
-    print("Your Dexterity bonus is", end = " ")
     if dexBonus >= 2:
-        print("+", str(dexBonus), "!", sep="")
+        print("Your Dexterity bonus is +", str(dexBonus), "!", sep="")
     elif dexBonus < 0:
-        print(str(dexBonus), "...", sep="")
+        print("Your Dexterity penalty is ", str(dexBonus), "...", sep="")
     else:
-        print("+", str(dexBonus), ".", sep="")
+        print("Your Dexterity bonus is +", str(dexBonus), ".", sep="")
     
-    print("Your Constitution bonus is", end = " ")
     if conBonus >= 2:
-        print("+", str(conBonus), "!", sep="")
+        print("Your Constitution bonus is +", str(conBonus), "!", sep="")
     elif conBonus < 0:
-        print(str(conBonus), "...", sep="")
+        print("Your Constitution penalty is ", str(conBonus), "...", sep="")
     else:
-        print("+", str(conBonus), ".", sep="")
+        print("Your Constitution bonus is +", str(conBonus), ".", sep="")
     
-    print("Your Intelligence bonus is", end = " ")
     if intBonus >= 2:
-        print("+", str(intBonus), "!", sep="")
+        print("Your Intelligence bonus is +", str(intBonus), "!", sep="")
     elif intBonus < 0:
-        print(str(intBonus), "...", sep="")
+        print("Your Intelligence penalty is ", str(intBonus), "...", sep="")
     else:
-        print("+", str(intBonus), ".", sep="")
+        print("Your Intelligence bonus is +", str(intBonus), ".", sep="")
     
-    print("Your Wisdom bonus is", end = " ")
     if wisBonus >= 2:
-        print("+", str(wisBonus), "!", sep="")
+        print("Your Wisdom bonus is +", str(wisBonus), "!", sep="")
     elif wisBonus < 0:
-        print(str(wisBonus), "...", sep="")
+        print("Your Wisdom penalty is ", str(wisBonus), "...", sep="")
     else:
-        print("+", str(wisBonus), ".", sep="")
+        print("Your Wisdom bonus is +", str(wisBonus), ".", sep="")
     
-    print("Your Charisma bonus is", end = " ")
     if chaBonus >= 2:
-        print("+", str(chaBonus), "!", sep="")
+        print("Your Charisma bonus is +", str(chaBonus), "!", sep="")
     elif chaBonus < 0:
-        print(str(chaBonus), "...", sep="")
+        print("Your Charisma penalty is ", str(chaBonus), "...", sep="")
     else:
-        print("+", str(chaBonus), ".", sep="")
+        print("Your Charisma bonus is +", str(chaBonus), ".", sep="")
     
     # Print goodbye message
     print("\nGood luck with your adventures. Farewell!")
